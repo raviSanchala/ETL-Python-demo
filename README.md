@@ -212,11 +212,12 @@ There are no restrictions on technologies used beyond using **Python** or **Scal
 I have generated a solution where we will have processed data under a processed-data folder, 
 To run the file we can directly run it as a python like
 
-Python3 app.py
+```Python3 app.py```
 
 I have also include a docker if we wish to run it using docker we need to give following command
 
-docker build -t app .
+```docker build -t app .
 docker run -rm app
+```
 
 It will create a processed-data folder under the docker container
