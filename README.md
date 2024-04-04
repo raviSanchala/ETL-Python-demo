@@ -216,7 +216,8 @@ To run the file we can directly run it as a python like
 
 I have also include a docker if we wish to run it using docker we need to give following command
 
-```docker build -t app .
+```
+docker build -t app .
 docker run -rm app
 ```
 
