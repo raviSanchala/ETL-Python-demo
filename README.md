@@ -207,3 +207,16 @@ The project should satisfy the following non-functional requirements:
 
 There are no restrictions on technologies used beyond using **Python** or **Scala** as the primary programming language for the project.
 
+
+#### Solutions : 
+I have generated a solution where we will have processed data under a processed-data folder, 
+To run the file we can directly run it as a python like
+
+Python3 app.py
+
+I have also include a docker if we wish to run it using docker we need to give following command
+
+docker build -t app .
+docker run -rm app
+
+It will create a processed-data folder under the docker container
